@@ -28,6 +28,8 @@ prevent the expensive filter operations from running so much.
 
 3) The CSS also isn't anything to write home about. For bigger projects I normally love the comibation of BEM and SASS.
 
+4) I should have also used a transducer function to sort and filter the data at the same time, saving memory and time complexity. 
+
 Here's how I would have done all the things I didn't do:
 - Had I united-tested the table component I would have used Kent Dodds testing-library/react
 - Had I deoplyed I would have deployed on heroku using a CRA build-pack - mainly for convenience 
